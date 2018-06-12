@@ -5,6 +5,9 @@
  * Date:       ： 2018/6/11
  * Time:       ： 下午6:24
  */
+
+namespace phpqrcode;
+
 define('QR_MODE_NUL', -1);
 define('QR_MODE_NUM', 0);
 define('QR_MODE_AN', 1);

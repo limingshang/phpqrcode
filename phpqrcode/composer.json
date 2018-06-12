@@ -1,0 +1,21 @@
+{
+    "name": "limsphpqrcode/phpqrcode",
+    "description": "php phpqrcode",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "lims",
+            "email": "18203232363@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "phpqrcode\\": "src"
+        }
+    }
+}

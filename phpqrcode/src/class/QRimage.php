@@ -14,14 +14,14 @@ class QRimage {
 
         if ($filename === false) {
             Header("Content-type: image/png");
-            ImagePng($image);
+            \ImagePng($image);
         } else {
             if($saveandprint===TRUE){
-                ImagePng($image, $filename);
+                \ImagePng($image, $filename);
                 header("Content-type: image/png");
-                ImagePng($image);
+                \ImagePng($image);
             }else{
-                ImagePng($image, $filename);
+                \ImagePng($image, $filename);
             }
         }
 

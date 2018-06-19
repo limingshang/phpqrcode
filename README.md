@@ -1,5 +1,7 @@
 # phpqrcode
 ### 简单事例 获取内容存储为png图片
+### 2018-6-19 4：22：00
+
     /**
      * Function Name: return_img
      * Create   User: lims

@@ -5,6 +5,7 @@
  * Date:       ： 2018/6/11
  * Time:       ： 下午6:31
  */
+namespace phpqrcode\phpqrcodeclass;
 class QRbitstream {
 
     public $data = array();

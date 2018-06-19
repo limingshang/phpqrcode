@@ -5,8 +5,23 @@
  * Date:       ： 2018/6/11
  * Time:       ： 下午6:24
  */
-
 namespace phpqrcode;
+use phpqrcode\phpqrcodeclass\FrameFiller;
+use phpqrcode\phpqrcodeclass\QRbitstream;
+use phpqrcode\phpqrcodeclass\QRencode;
+use phpqrcode\phpqrcodeclass\QRimage;
+use phpqrcode\phpqrcodeclass\QRinput;
+use phpqrcode\phpqrcodeclass\QRinputItem;
+use phpqrcode\phpqrcodeclass\QRmask;
+use phpqrcode\phpqrcodeclass\QRrawcode;
+use phpqrcode\phpqrcodeclass\QRrs;
+use phpqrcode\phpqrcodeclass\QRrsblock;
+use phpqrcode\phpqrcodeclass\QRrsItem;
+use phpqrcode\phpqrcodeclass\QRspec;
+use phpqrcode\phpqrcodeclass\QRsplit;
+use phpqrcode\phpqrcodeclass\qrstr;
+use phpqrcode\phpqrcodeclass\QRtools;
+
 
 define('QR_MODE_NUL', -1);
 define('QR_MODE_NUM', 0);
@@ -42,9 +57,6 @@ define('N1', 3);
 define('N2', 3);
 define('N3', 40);
 define('N4', 10);
-spl_autoload_register(function ($class_name) {
-    require_once 'class/'.$class_name . '.php';
-});
 class QRcode {
     public $version;
     public $width;

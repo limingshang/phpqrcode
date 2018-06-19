@@ -5,6 +5,7 @@
  * Date:       ： 2018/6/11
  * Time:       ： 下午6:26
  */
+namespace phpqrcode\phpqrcodeclass;
 class QRrsblock {
     public $dataLength;
     public $data = array();

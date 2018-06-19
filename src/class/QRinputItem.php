@@ -5,6 +5,7 @@
  * Date:       ： 2018/6/11
  * Time:       ： 下午6:33
  */
+namespace phpqrcode\phpqrcodeclass;
 class QRinputItem {
 
     public $mode;

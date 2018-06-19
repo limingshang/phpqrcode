@@ -5,7 +5,7 @@
  * Date:       ： 2018/6/11
  * Time:       ： 下午6:43
  */
-
+namespace phpqrcode\phpqrcodeclass;
 class QRspec {
 
     public static $capacity = array(
